@@ -1,14 +1,6 @@
 # Turborepo starter
 
-This is an official starter Turborepo.
-
-## Using this example
-
-Run the following command:
-
-```sh
-npx create-turbo@latest
-```
+This is an unofficial starter using Turborepo.
 
 ## What's inside?
 
@@ -31,6 +23,8 @@ This Turborepo has some additional tools already setup for you:
 - [TypeScript](https://www.typescriptlang.org/) for static type checking
 - [ESLint](https://eslint.org/) for code linting
 - [Prettier](https://prettier.io) for code formatting
+- [Tailwind](https://tailwindcss.com/) for styling
+- [Shadcn/ui](https://ui.shadcn.com/) for UI components
 
 ### Build
 
@@ -38,7 +32,7 @@ To build all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-pnpm build
+npm run build
 ```
 
 ### Develop
@@ -47,7 +41,7 @@ To develop all apps and packages, run the following command:
 
 ```
 cd my-turborepo
-pnpm dev
+npm run dev
 ```
 
 ### Remote Caching
