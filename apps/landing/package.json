@@ -12,6 +12,7 @@
   "dependencies": {
     "@astrojs/check": "^0.8.2",
     "@astrojs/react": "^3.6.0",
+    "@astrojs/tailwind": "^5.1.0",
     "@repo/ui": "*",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
